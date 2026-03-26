@@ -358,7 +358,7 @@ const StepDepoimento = ({ onNext }: { onNext: () => void }) => (
       <h1 className="text-2xl font-bold text-gray-900">🔥 Histórias Reais de <span className="text-green-600">Transformação!</span></h1>
       <p className="text-sm text-gray-500">📍 Depoimento: Fernanda – Porto Alegre-RS</p>
     </div>
-    <img src="https://gkaoozgpeeeympskbcxq.supabase.co/storage/v1/object/public/IMGs/ANTESDEPOIS.webp"
+    <img src="https://gkaoozgpeeeympskbcxq.supabase.co/storage/v1/object/public/IMGs/AeD4.webp"
       alt="Antes e depois" className="w-full rounded-2xl shadow-md object-cover" loading="lazy" />
     <div className="bg-white border border-gray-100 rounded-2xl p-4 shadow-sm space-y-2">
       <div className="flex items-center space-x-3">
