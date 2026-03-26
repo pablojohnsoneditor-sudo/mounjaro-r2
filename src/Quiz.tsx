@@ -759,7 +759,7 @@ const StepVendas = ({ state }: { state: QuizState }) => {
           </div>
           <div className="text-center border-t border-gray-100 pt-4">
             <p className="text-sm text-gray-400">De <span className="line-through">R$ 197,00</span> por apenas</p>
-            <p className="text-[80px] font-black text-green-600 leading-none py-2">R$27</p>
+            <p className="text-[80px] font-black text-green-600 leading-none py-2">R$47</p>
             <p className="text-[10px] text-gray-400 uppercase font-bold">Acesso Imediato e Vitalício</p>
           </div>
           <button onClick={comprar}
