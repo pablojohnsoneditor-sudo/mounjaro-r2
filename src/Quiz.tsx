@@ -657,8 +657,8 @@ const StepCorpoSonho = ({ onNext }: { onNext: (v: string) => void }) => (
     </div>
     <div className="grid grid-cols-2 gap-4">
       {[
-        { label: 'Em Forma', value: 'em_forma', img: 'https://gkaoozgpeeeympskbcxq.supabase.co/storage/v1/object/public/IMGs/AeD2.webp' },
-        { label: 'Natural',  value: 'natural',  img: 'https://gkaoozgpeeeympskbcxq.supabase.co/storage/v1/object/public/IMGs/AeD3.webp' },
+        { label: 'Em Forma', value: 'em_forma', img: 'https://gkaoozgpeeeympskbcxq.supabase.co/storage/v1/object/public/IMGs/FORMA.webp' },
+        { label: 'Natural',  value: 'natural',  img: 'https://gkaoozgpeeeympskbcxq.supabase.co/storage/v1/object/public/IMGs/MAGRA.webp' },
       ].map(o => (
         <button key={o.value} onClick={() => onNext(o.value)}
           className="relative overflow-hidden rounded-2xl border-2 border-gray-100 hover:border-green-500 transition-all">
