@@ -55,10 +55,10 @@ const ProgressBar = ({ step, total }: { step: number; total: number }) => (
 // ── STEP 1: Idade ──────────────────────────────────────────────────────────
 const StepIdade = ({ onNext }: { onNext: (v: string) => void }) => {
   const opts = [
-    { label: '18 – 27 anos', img: 'https://gkaoozgpeeeympskbcxq.supabase.co/storage/v1/object/public/IMGs/AeD1.webp', value: '18-27' },
-    { label: '28 – 39 anos', img: 'https://gkaoozgpeeeympskbcxq.supabase.co/storage/v1/object/public/IMGs/AeD2.webp', value: '28-39' },
-    { label: '40 – 54 anos', img: 'https://gkaoozgpeeeympskbcxq.supabase.co/storage/v1/object/public/IMGs/AeD3.webp', value: '40-54' },
-    { label: '55 anos ou mais', img: 'https://gkaoozgpeeeympskbcxq.supabase.co/storage/v1/object/public/IMGs/AeD4.webp', value: '55+' },
+    { label: '18 – 27 anos', img: 'https://gkaoozgpeeeympskbcxq.supabase.co/storage/v1/object/public/IMGs/IDADE1.webp', value: '18-27' },
+    { label: '28 – 39 anos', img: 'https://gkaoozgpeeeympskbcxq.supabase.co/storage/v1/object/public/IMGs/IDADE2.webp', value: '28-39' },
+    { label: '40 – 54 anos', img: 'https://gkaoozgpeeeympskbcxq.supabase.co/storage/v1/object/public/IMGs/IDADE3.webp', value: '40-54' },
+    { label: '55 anos ou mais', img: 'https://gkaoozgpeeeympskbcxq.supabase.co/storage/v1/object/public/IMGs/IDADE4.webp', value: '55+' },
   ];
   return (
     <div className="flex flex-col space-y-5 fade-in">
