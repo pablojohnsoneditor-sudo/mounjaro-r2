@@ -713,11 +713,11 @@ const StepVendas = ({ state }: { state: QuizState }) => {
       </div>
       <div className="grid grid-cols-2 gap-3">
         <div className="relative rounded-2xl overflow-hidden border-2 border-gray-200">
-          <img src="https://gkaoozgpeeeympskbcxq.supabase.co/storage/v1/object/public/IMGs/AeD1.webp" alt="Antes" className="w-full aspect-[3/4] object-cover" loading="lazy" />
+          <img src="https://gkaoozgpeeeympskbcxq.supabase.co/storage/v1/object/public/IMGs/ANTESjpg" alt="Antes" className="w-full aspect-[3/4] object-cover" loading="lazy" />
           <div className="absolute top-2 left-2 bg-gray-800/80 text-white text-[10px] font-bold px-2 py-1 rounded-full">Antes 🖼️</div>
         </div>
         <div className="relative rounded-2xl overflow-hidden border-2 border-green-500">
-          <img src="https://gkaoozgpeeeympskbcxq.supabase.co/storage/v1/object/public/IMGs/AeD3.webp" alt="Depois" className="w-full aspect-[3/4] object-cover" loading="lazy" />
+          <img src="https://gkaoozgpeeeympskbcxq.supabase.co/storage/v1/object/public/IMGs/DEPOIS.jpg" alt="Depois" className="w-full aspect-[3/4] object-cover" loading="lazy" />
           <div className="absolute top-2 left-2 bg-green-600 text-white text-[10px] font-bold px-2 py-1 rounded-full">Depois ⭐</div>
         </div>
       </div>
